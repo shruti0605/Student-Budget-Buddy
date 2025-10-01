@@ -627,14 +627,6 @@ void Balance::cat_bal(UserBudget B,Transaction T,int user_id)
         cout<<"Unable to open file."<<endl;
 }
 
-class Report : public Transaction
-{
-	protected:
-		int report_id;
-	public:
-		void generate_report();
-		void view_report();	
-};
 
 int main()
 {
@@ -826,4 +818,5 @@ int main()
 	}
 		while(1);
 	
+
 }
